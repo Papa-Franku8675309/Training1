@@ -24,8 +24,8 @@ public class Robot extends IterativeRobot {
 	 */
 	@Override
 	public void robotInit() {
-		chooser.addDefault("Default Auto", centerAuto);
-		chooser.addObject("My Auto", sideAuto);
+		chooser.addDefault("Center Auto", centerAuto);
+		chooser.addObject("Side Auto", sideAuto);
 		SmartDashboard.putData("Auto choices", chooser);
 	}
 
